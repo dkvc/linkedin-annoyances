@@ -1,0 +1,8 @@
+! Title: LinkedIn-Annoyances
+! Description: Filter list to hide LinkedIn Annoyances
+! Homepage: https://github.com/dkvc/linkedin-annoyances
+! License: https://github.com/dkvc/linkedin-annoyances/blob/main/LICENSE
+
+!#include basic.text
+!#include suggestions.txt
+!#include feed.txt

@@ -1,0 +1,27 @@
+! LinkedIn News Sidebar with Games
+www.linkedin.com##.news-module--with-game
+
+! LinkedIn Premium Upsell and Recommendations
+!! Hide "Premium" references
+www.linkedin.com##.text-align-left.link-without-hover-state.t-bold.t-black.t-12.feed-identity-module__anchored-widget--premium-upsell
+www.linkedin.com##.premium-upsell-link
+www.linkedin.com##.premium-upsell-link--extra-long
+
+!! Hide "Try Premium for free" (My Network)
+www.linkedin.com##.relative.flex-column.display-flex.align-items-left.mb4.artdeco-card.p4.mn-sales-navigator-upsell
+
+!! Hide "Recommended Based on Your Activity" in Side Menu (Jobs)
+www.linkedin.com##.pb4.pt5.mb2.artdeco-card
+
+!! Hide "Premium Job Search" (Jobs)
+www.linkedin.com##.premium-accent-bar.artdeco-card
+
+!! Remove "Enhance Profile" button (Profile)
+www.linkedin.com##.ember-view.artdeco-button--secondary.artdeco-button--2.artdeco-button.pvs-profile-actions__custom-action
+
+! Remove Games in Catch-Up section (Profile)
+www.linkedin.com##.nurture-cards-list__item--divider.nurture-cards-list__item
+
+! Uncommon Recommendation Overlays in Feed
+www.linkedin.com##.pv4.t-14.update-components-header__emphasized-style.pt3.t-normal.t-black--light.t-12.update-components-header:upward(10)
+www.linkedin.com##.feed-update-list__inline-recommendations-header:upward(10)

@@ -1,0 +1,22 @@
+! Due to dynamic loading of content, feeds may take a few seconds to load.
+
+!! Hide Certain Feeds with specific word in description
+www.linkedin.com##div[data-view-name="feed-full-update"]:has(span.tvm-parent-container span:has-text(/Excited to/i)):upward(2)
+www.linkedin.com##div[data-view-name="feed-full-update"]:has(span.tvm-parent-container span:has-text(/Happy to share/i)):upward(2)
+www.linkedin.com##div[data-view-name="feed-full-update"]:has(span.tvm-parent-container span:has-text(/Thrilled to/i)):upward(2)
+www.linkedin.com##div[data-view-name="feed-full-update"]:has(span.tvm-parent-container span:has-text(/Celebrating a milestone/i)):upward(2)
+
+!! Hide Certain Feeds with Specific Header
+!!! Some feeds are not hidden (like this/loves this/reposted this). If you want to hide those, uncomment corresponding feeds
+!!!! If you hide all below feeds, you will only see your interests
+www.linkedin.com###fie-impression-container:has(span.update-components-header__text-view:has-text(/commented on this/)):upward(7)
+www.linkedin.com###fie-impression-container:has(span.update-components-header__text-view:has-text(/contributed to this/)):upward(7)
+www.linkedin.com###fie-impression-container:has(span.update-components-header__text-view:has-text(/job update/)):upward(7)
+www.linkedin.com###fie-impression-container:has(span.update-components-header__text-view:has-text(/on their work anniversary/)):upward(7)
+www.linkedin.com###fie-impression-container:has(span.update-components-header__text-view:has-text(/celebrates this/)):upward(7)
+www.linkedin.com###fie-impression-container:has(span.update-components-header__text-view:has-text(/supports this/)):upward(7)
+www.linkedin.com###fie-impression-container:has(span.update-components-header__text-view:has-text(/finds this/)):upward(7)
+# www.linkedin.com###fie-impression-container:has(span.update-components-header__text-view:has-text(/like this/)):upward(7)
+www.linkedin.com###fie-impression-container:has(span.update-components-header__text-view:has-text(/likes this/)):upward(7)
+# www.linkedin.com###fie-impression-container:has(span.update-components-header__text-view:has-text(/loves this/)):upward(7)
+# www.linkedin.com###fie-impression-container:has(span.update-components-header__text-view:has-text(/reposted this/)):upward(7)

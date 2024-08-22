@@ -1,0 +1,25 @@
+! Hide "View Analytics" in Side Menu (Home Page)
+www.linkedin.com##.pv3.feed-identity-module__widgets
+
+! Hide "For Business" in Navigation Menu
+www.linkedin.com##li.global-nav__primary-item:nth-of-type(7)
+
+! Hide Grow & Catch Up Navigation Menu (My Network)
+! If this selector is used, then "premium upsell" is also hidden in My Network.
+www.linkedin.com##.scaffold-layout__main > div.mb4.artdeco-card
+
+! Hide sections with certain text (My Network)
+www.linkedin.com##.discover-section-header:has-text(/Popular People/i):upward(1)
+www.linkedin.com##.discover-section-header:has-text(/Trending People/i):upward(1)
+www.linkedin.com##.discover-section-header:has-text(/Top emerging/):upward(1)
+
+! Hide suggestions and other contacts in profile, analytics, grow your network, resources (Profile)
+www.linkedin.com##section.mt2.break-words.pv-profile-card.artdeco-card:nth-of-type(2)
+www.linkedin.com##section.mt2.break-words.pv-profile-card.artdeco-card:nth-of-type(3)
+www.linkedin.com##section.mt2.break-words.pv-profile-card.artdeco-card:nth-of-type(4)
+
+! Remove Quick Comments
+www.linkedin.com##.ph2.justify-center.display-flex.comments-quick-comments.align-items-start
+
+! Remove Feed with Suggestions header
+www.linkedin.com###fie-impression-container:has(span.update-components-header__text-view:has-text(/Suggested/)):upward(7)
