@@ -25,3 +25,7 @@ www.linkedin.com##.nurture-cards-list__item--divider.nurture-cards-list__item
 ! Uncommon Recommendation Overlays in Feed
 www.linkedin.com##.pv4.t-14.update-components-header__emphasized-style.pt3.t-normal.t-black--light.t-12.update-components-header:upward(10)
 www.linkedin.com##.feed-update-list__inline-recommendations-header:upward(10)
+
+! First Launch Promos
+www.linkedin.com##.mb2.artdeco-card.launchpad-v2
+www.linkedin.com##.update-components-promo
