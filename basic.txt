@@ -16,11 +16,17 @@ www.linkedin.com##.pb4.pt5.mb2.artdeco-card
 !! Hide "Premium Job Search" (Jobs)
 www.linkedin.com##.premium-accent-bar.artdeco-card
 
+!! Hide Premium Upsell (Jobs) 
+www.linkedin.com##.artdeco-card:has(.jobs-home-upsell-card__container)
+
 !! Remove "Enhance Profile" button (Profile)
 www.linkedin.com##.ember-view.artdeco-button--secondary.artdeco-button--2.artdeco-button.pvs-profile-actions__custom-action
 
-! Remove Games in Catch-Up section (Profile)
+!! Remove Games in Catch-Up section (Profile)
 www.linkedin.com##.nurture-cards-list__item--divider.nurture-cards-list__item
+
+!! Hide Windows App Upsell (Feed)
+www.linkedin.com##.display-flex.mt2.artdeco-card.windows-upsell-banner
 
 ! Uncommon Recommendation Overlays in Feed
 www.linkedin.com##.pv4.t-14.update-components-header__emphasized-style.pt3.t-normal.t-black--light.t-12.update-components-header:upward(10)
