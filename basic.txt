@@ -23,7 +23,7 @@ www.linkedin.com##.artdeco-card:has(.jobs-home-upsell-card__container)
 www.linkedin.com##.relative.flex-column.display-flex.align-items-center.jobs-search-top-applicant-upsell-card
 
 ! Block premium upsell in specific jobs in Job Search
-www.linkedin.com##.job-details-how-you-match-card__border-top.ph5.pv4
+www.linkedin.com##.job-details-module.artdeco-card.mb4.job-details-how-you-match-card__container
 
 !! Remove "Enhance Profile" button (Profile)
 www.linkedin.com##.ember-view.artdeco-button--secondary.artdeco-button--2.artdeco-button.pvs-profile-actions__custom-action
