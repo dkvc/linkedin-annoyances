@@ -31,6 +31,9 @@ www.linkedin.com##.ember-view.artdeco-button--secondary.artdeco-button--2.artdec
 !! Remove Games in Catch-Up section (Profile)
 www.linkedin.com##.nurture-cards-list__item--divider.nurture-cards-list__item
 
+!! Remove Premium Upsell in Contact Info modal (Profile)
+www.linkedin.com##.section-info.pv-profile-section__section-info > div:has-text("Premium")
+
 ! Completely block Premium Upsells for viewing your profile in notifications
 www.linkedin.com##.nt-card--with-hover-states.nt-card--unread.nt-card:has-text("Premium")
 
