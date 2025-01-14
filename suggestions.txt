@@ -22,7 +22,7 @@ www.linkedin.com##section.mt2.break-words.pv-profile-card.artdeco-card:nth-of-ty
 www.linkedin.com##.ph2.justify-center.display-flex.comments-quick-comments.align-items-start
 
 ! Remove Feed with Suggestions header
-www.linkedin.com##.fie-impression-container:has(span.update-components-header__text-view:has-text(/Suggested/))
+www.linkedin.com##.fie-impression-container:has(span.update-components-header__text-view:has-text(/Suggested/)):upward(7)
 
 ! Is this a good suggestion? on Feed
 www.linkedin.com##.update-components-detailed-survey__content
