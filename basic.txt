@@ -35,7 +35,7 @@ www.linkedin.com##.nurture-cards-list__item--divider.nurture-cards-list__item
 www.linkedin.com##.section-info.pv-profile-section__section-info > div:has-text("Premium")
 
 !! Hide Premium Upsell in Profile Appearances
-www.linkedin.com##.card-upsell-v2__text-container:upward(3)
+www.linkedin.com##.member-analytics-addon-section__body.member-analytics-addon-drawer .card-upsell-v2__text-container:upward(3)
 
 ! Completely block Premium Upsells for viewing your profile in notifications
 www.linkedin.com##.nt-card--with-hover-states.nt-card--unread.nt-card:has-text("Premium")
